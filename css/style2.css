@@ -1,0 +1,163 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+article {
+    margin-top: 15px;
+  margin-bottom: 15px;
+}
+h3 {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bleu {
+  background-color: #3071aa;
+  color: white;
+}
+
+.verte {
+  background-color:#7ca718;
+  color: white;
+}
+
+.vertefoncee {
+  background-color: #03978b;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 2em;
+}
+
+  table.entete2 td:nth-child(even)  {
+  background-color: #d9d9d9;
+}
+
+  table.entete2 td:hover  {
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
+
+td span {
+  font-weight: bolder;
+}
+
+.bordurebas {
+  border-bottom: 1px solid black;
+}
+
+table.exo2 thead {
+    background-color: #484848;
+    color:white;
+}
+
+table.exo2 tbody {
+    background-color: #262626;
+}
+
+table.exo2 tbody tr:nth-child(even) {
+    color: #a6c325;
+}
+
+table.exo2 tbody tr:nth-child(odd) {
+    color:#3287dd ;
+}
+
+
+table.exo2 td[colspan] {
+color: #9c4e22;
+font-style: italic;
+}
+
+table.exo2 {
+    font-size: 1.3em;
+}
+
+table.exo2 thead {
+    font-size: 1.5em;
+}
+
+table.exo2 tr:hover td {
+    background-color: rgb(0,0,0);
+}
+
+table.exo3 {
+    border-collapse: separate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table.exo3 th {
+    color:white;
+}
+table.exo3 th.couleursessions {
+
+    background-color: #455a64;
+}
+
+table.exo3 th.couleurgroupe {
+    background-color: #263238;
+}
+
+table.exo3 th.groupea  {
+    background-color: #3071aa;
+}
+
+tr.a td {
+    color:#3071aa;
+}
+tr.a:hover td {
+    background-color:#7695af;
+    color:white;
+}
+tr.b:hover td {
+    background-color: #a5bb73;
+    color:white;
+}
+tr.c:hover td {
+    background-color: #6e9f9b;
+    color:white;
+}
+
+
+tr.b td {
+    color:#7ca718;
+}
+
+tr.c td {
+    color:#03978b;
+}
+
+
+table.exo3 th.groupeb {
+    background-color: #7ca718;
+}
+table.exo3 th.groupec {
+    background-color: #03978b;
+}
+
+tr.session th {
+    background-color: #607d8b;
+}
+table.exo3 td {
+   background-color: #e2e2e2;
+   font-size: .65em;
+
+}
+
+th.groupea, th.groupec {
+    text-align: right;
+    padding: 15px;
+}
+
+th.groupeb {
+    text-align: right;
+    padding: 15px;
+}
